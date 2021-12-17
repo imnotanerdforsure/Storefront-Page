@@ -1,0 +1,219 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header{
+  background-image: url("/img/00title.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  font-size: 50px;
+  color: white;
+  background-position: center 70%;
+
+}
+  .header{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .upper{
+    margin-top: 40px;
+    text-align: center;
+    /* border-style: dashed;
+    border-color: green; */
+  }
+  .under{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border-style: dashed;
+    border-color: red; */
+  }
+.a{
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  opacity: 80%;
+}
+.a:hover{
+  /* box-shadow: 4px 4px 8px #000; */
+  opacity: 100%;
+}
+.b{
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  opacity: 80%;
+}
+.b:hover{
+  /* box-shadow: 4px 4px 8px #000; */
+  opacity: 100%;
+}
+.c{
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  opacity: 80%;
+}
+.c:hover{
+  /* box-shadow: 4px 4px 8px #000; */
+  opacity: 100%;
+}
+@media screen and (max-width: 767px){
+  .under{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    align-items:  center;
+  }
+  .a{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+  }
+  .a img{
+    width: 500px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+  }
+  .b{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+    margin-bottom: 25px;
+  }
+  .b img{
+    width: 500px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+  }
+  .c{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+  }
+  .c img{
+    width: 500px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+}
+@media screen and (max-width: 580px){
+  .under{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    align-items:  center;
+  }
+  .a{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+  }
+  .a img{
+    width: 400px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+  }
+  .b{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+    margin-bottom: 25px;
+  }
+  .b img{
+    width: 400px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+  }
+  .c{
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 2px;
+  }
+  .c img{
+    width: 400px;
+    height: 60px;
+    object-fit: cover;
+    object-position:center;
+}
+/* background-repeat: no-repeat;
+background-size: cover;
+width: 40px;
+height: 60px;
+position: absolute;
+left: 172px;
+top: 186px;
+height: 320px;
+width: 270px;
+background-image: url("/img/01title.jpg"); */
