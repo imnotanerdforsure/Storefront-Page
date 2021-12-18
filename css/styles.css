@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  
+
 }
 
 .header{
@@ -23,16 +23,12 @@
   .upper{
     margin-top: 40px;
     text-align: center;
-    /* border-style: dashed;
-    border-color: green; */
   }
   .under{
     margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* border-style: dashed;
-    border-color: red; */
   }
 .a{
   display: flex;
@@ -79,8 +75,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-style: dashed;
-    align-items:  center;
   }
   .a{
     display: flex;
@@ -95,10 +89,13 @@
     border-width: 2px;
     margin-top: 15px;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
 
   }
   .a img{
-    width: 500px;
+    width: 100%;
     height: 60px;
     object-fit: cover;
     object-position:center;
@@ -115,9 +112,12 @@
     border-color: #222222;
     border-width: 2px;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
   }
   .b img{
-    width: 500px;
+    width: 100%;
     height: 60px;
     object-fit: cover;
     object-position:center;
@@ -133,9 +133,12 @@
     border-style: solid;
     border-color: #222222;
     border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
   }
   .c img{
-    width: 500px;
+    width: 100%;
     height: 60px;
     object-fit: cover;
     object-position:center;
@@ -146,7 +149,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-style: dashed;
     align-items:  center;
   }
   .a{
@@ -162,7 +164,6 @@
     border-width: 2px;
     margin-top: 15px;
     margin-bottom: 25px;
-
   }
   .a img{
     width: 400px;
