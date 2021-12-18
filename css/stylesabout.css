@@ -1,10 +1,10 @@
 
+@import "bootstrap-sprockets";
+ @import "bootstrap";
 *{
   margin: 0;
   padding: 0;
 }
-
-
 .header{
   background-image: url("/img/00title.jpg");
   background-repeat: no-repeat;
